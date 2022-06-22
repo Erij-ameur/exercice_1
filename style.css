@@ -1,0 +1,121 @@
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c7e4f0;
+}
+
+.menu{
+    display: none;
+}
+.logo{
+    width: 5%;
+}
+
+.TNav{
+    font-family:'Anek Latin' , sans-serif;
+    font-size:x-large;
+    font-style:normal;
+    font-weight: bolder;
+    
+}
+
+
+.body{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.rightB{
+    width: 40%;
+}
+
+.leftB{
+    width: 40%;
+    
+}
+
+.topR{
+    height: 50%;
+}
+.topL{
+    height: 50%;
+}
+.botR{
+    height: 50%;
+}
+.botL{
+    height: 50%;
+}
+
+.c1{
+    display: flex;
+    justify-content: space-between;
+    font-family:'Anek Latin' , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    color: darkgray;
+    margin-top: 0px;
+}
+
+
+.text1{
+    font-family:'Anek Latin' , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.text2{
+    font-family:'Anek Latin' , sans-serif;
+    font-weight: lighter;
+    font-size: 19px;
+}
+
+.team{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+.image{
+    width: 70%;
+    display: block;
+    margin: auto;
+    
+}
+
+
+footer{
+    display: flex;
+    background-color: #00598B;
+    color: #FFFFFF;
+    align-content: center;
+    justify-content: center;
+    font-family:'Anek Latin' , sans-serif;
+    height: 50px;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}
+
+@media screen and (max-width : 792px){
+    .menu{
+        display: flex;
+        width: 20px;
+    }
+
+    .TNav{
+        display: none;
+    }
+
+    .leftB{
+        display: none;
+    }
+}
